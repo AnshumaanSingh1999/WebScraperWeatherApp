@@ -16,6 +16,9 @@
             .margin{
                 margin-top: 20px;
             }
+            .centre{
+                text-align: center;
+            }
         
         
         
@@ -27,7 +30,7 @@
         <form class="margin">
   <fieldset class="form-group">
     <label for="city">Enter the City Name</label>
-    <input type="text" class="form-control" id="city" placeholder="Eg : Lucknow, Delhi, Vellore" name="city"  value = "<?php if (array_key_exists('city', $_GET)) {
+    <input type="text" class="form-control centre" id="city" placeholder="Eg : Lucknow, Delhi, Vellore" name="city"  value = "<?php if (array_key_exists('city', $_GET)) {
     echo $_GET['city']; 
  }
  ?>">
