@@ -8,6 +8,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">  
         <style>
             
+            
+             body {
+        background-image: url(pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+        background-color: beige;
+                 background-blend-mode:darken
+            }
+            
             .container{
                 text-align: center;
                 margin-top: 200px;
